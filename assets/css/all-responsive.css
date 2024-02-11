@@ -618,7 +618,7 @@
   
     .highlights-bg:before {
       background: unset;
-      background-color: #292929bd !important;
+      background-color: var(--primary-color)bd !important;
     }
   
     .get-direction-detail {
@@ -747,7 +747,7 @@
       -o-transition: all 0.3s linear;
       -webkit-transition: all 0.3s linear;
       transition: all 0.3s linear;
-      background-color: #292929;
+      background-color: var(--primary-color);
       z-index: 999;
     }
   
