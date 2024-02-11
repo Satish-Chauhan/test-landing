@@ -3141,10 +3141,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="column is-12-mobile is-12-tablet is-12-desktop is-3-widescreen col-copyright">
                       <ul class="footer-menu dark">
                         <li>
-                          <small><a href="https://supremetowers.com/privacy-policy/">Privacy Policy</a></small>
+                          <small><a href="/privacy-policy/">Privacy Policy</a></small>
                         </li>
                         <li>
-                          <small><a href="https://supremetowers.com/disclaimer/">Disclaimer</a></small>
+                          <small><a href="/disclaimer/">Disclaimer</a></small>
                         </li>
                       </ul>
                     </div>
