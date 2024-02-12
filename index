@@ -23,14 +23,14 @@
   <meta name="description" content="The Finer Heart Of Pune" />
   <meta name="keywords" content="" />
   <meta name="robots" content="index,follow" />
-  <link rel="canonical" href="https://supremetowers.com/" />
+  <link rel="canonical" href="http://localhost/" />
   <meta name="author" content="Supreme Universal">
   <meta name="thumbnail" content="/assets/images/seo/seo.jpg" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Supreme Towers - Supreme Universal Group" />
   <meta property="og:description" content="The Finer Heart Of Pune" />
-  <meta property="og:url" content="https://supremetowers.com/" />
+  <meta property="og:url" content="http://localhost/" />
   <meta property="og:image" content="/assets/images/seo/seo.jpg" />
   <meta property="og:site_name" content="Supreme" />
   <meta name="twitter:card" content="summary" />
@@ -130,7 +130,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
       <div class="column col-header col-middle">
         <div class="theme-logo has-text-centered">
-          <a href="https://supremetowers.com/">
+          <a href="http://localhost/">
             <picture>
               <img src="/assets/images/logo.svg" alt="Supreme Logo" width="200" height="61" />
             </picture>
@@ -177,8 +177,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="theme-modal-card-body">
         <form class="nobottommargin" id="inquiry" name="scontactform"
           onsubmit="validateInquiryForm('inquiry')&disableButton()"
-          action="https://script.google.com/macros/s/AKfycbxYde2225Wi31Rd2BZ_cn8u71FJMuBo_8Hkeqfl4d9r-Sr4nIYmQ5he1EUagu3iB1bRlA/exec" method="post"
-          novalidate autocomplete="off">
+          action="https://script.google.com/macros/s/AKfycbxYde2225Wi31Rd2BZ_cn8u71FJMuBo_8Hkeqfl4d9r-Sr4nIYmQ5he1EUagu3iB1bRlA/exec"
+          method="post" novalidate autocomplete="off">
           <h3 id="leadmodaltitle" class="modal-title">Enquire Now</h3>
           <div class="columns is-multiline is-mobile is-vcentered row-register">
             <div class="column is-12-mobile is-6-tablet is-6-desktop is-6-widescreen col-register">
@@ -212,7 +212,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <input type="hidden" name="formtype" id="formtype" value="enquire" />
             <input type="hidden" name="tracker_code" value="">
             <input type="hidden" name="gclid" value="">
-            <input type="hidden" name="site_url" value="https://supremetowers.com/">
+            <input type="hidden" name="site_url" value="http://localhost/">
             <input type="hidden" name="contact" value="">
             <input type="hidden" name="random_val" value="ajshdbasdy">
             <div class="column is-12-mobile is-12-tablet is-12-desktop is-12-widescreen col-register">
@@ -2852,8 +2852,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </div>
               <div class="footer-contact-items">
                 <h5>Contact Us</h5>
-                <a href="tel:+918718871891">+91 8718 8718 91</a> | <a href="https://supremeuniversal.in/"
-                  target="_blank">www.supremeuniversal.in</a>
+                <a href="tel:+919630339933">+91 9630 3399 33</a> | <a href="tel:+919049000604">+91 9049 0006 04</a>
+                <br>
+                <a href="https://supremeuniversal.in/" target="_blank">www.supremeuniversal.in</a>
               </div>
               <div class="footer-contact-items">
                 <h5>RERA Number</h5>
@@ -3705,16 +3706,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       }
       return inp;
     }
-
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxYde2225Wi31Rd2BZ_cn8u71FJMuBo_8Hkeqfl4d9r-Sr4nIYmQ5he1EUagu3iB1bRlA/exec';
-    const form = document.forms['inquiry'];
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-        .then(response => alert("Thank you! your form is submitted successfully."))
-        .then(() => { window.location.reload(); })
-        .catch(error => console.error('Error!', error.message))
-    });
 
     document.getElementById('inquiry-submit').onclick = function () {
       validateInquiryForm('inquiry');
