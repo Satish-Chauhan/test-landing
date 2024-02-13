@@ -2015,13 +2015,19 @@ a,
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  z-index: 89;
+  z-index: 9999;
   transition: all .5s ease;
   border: 1px solid rgb(52 52 52 / 15%);
   background-color: var(--primary-color);
   color: #fff;
   border-radius: 100%;
   border: 1px solid #ffffff30;
+}
+
+.whatsappanchor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .scrollToTopBtn:hover {
@@ -2031,6 +2037,9 @@ a,
 .scrollToTopBtn.showBtn {
   opacity: 1;
   transform: translateY(0);
+  bottom: 55px;
+  width: 36px;
+  height: 36px;
 }
 
 .tab-list li {

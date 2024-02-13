@@ -8,6 +8,10 @@
       padding-left: 160px;
       padding-right: 160px;
     }
+    
+    .whatsappanchor{
+      justify-content: initial !important;
+    }
   }
   
   @media screen and (max-width: 1599px) {
@@ -191,7 +195,7 @@
     .about-developer-detail {
       max-width: 410px;
     }
-  
+    
     .theme-detail-title {
       max-width: 380px;
     }
@@ -524,6 +528,10 @@
   }
   
   @media screen and (max-width: 1024px) {
+    .whatsappanchor{
+      justify-content: center !important;
+    }
+
     .container {
       padding: 0 35px;
     }
