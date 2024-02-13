@@ -6,9 +6,9 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="preload" src="https://supremetowersuniversal.com/assets/fonts/Nexa-Bold.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="preload" src="https://supremetowersuniversal.com/assets/fonts/Nexa-Light.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="preload" src="https://supremetowersuniversal.com/assets/fonts/NexaRegular.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="https://supremetowersuniversal.com/assets/fonts/Nexa-Bold.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="https://supremetowersuniversal.com/assets/fonts/Nexa-Light.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="https://supremetowersuniversal.com/assets/fonts/NexaRegular.woff2" as="font" type="font/woff2" crossorigin />
 
   <!--Common CSS-->
   <link rel="stylesheet" type="text/css" href="https://supremetowersuniversal.com/assets/css/basic-element.css">
@@ -2854,7 +2854,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <h5>Contact Us</h5>
                 <a href="tel:+919630339933">+91 9630 3399 33</a> | <a href="tel:+919049000604">+91 9049 0006 04</a>
                 <br>
-                <a href="https://supremeuniversal.in/" target="_blank">www.supremeuniversal.in</a>
+                <a href="https://supremetowersuniversal.com/" target="_blank">www.supremetowersuniversal.com</a>
               </div>
               <div class="footer-contact-items">
                 <h5>RERA Number</h5>
