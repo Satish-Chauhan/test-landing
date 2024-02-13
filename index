@@ -2828,7 +2828,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
   </section>
-
+  
+  <button class="whatsappbtn">
+    <a href="https://api.whatsapp.com/send?phone=+919630339933&amp;text=Hi!%20I%20am%20interested%20in%20Supreme%20Towers%20at%20Universal%20,%20Pune.%20Please%20share%20more%20details." target="_blank">
+                    <img src="https://supremetowersuniversal.com/assets/images/whatsapp-logo.svg">
+                  </a>
+  </button>
 
   <footer class="section footer" id="footer">
     <div class="theme-elements line-element footer-element">
@@ -2922,7 +2927,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <polyline points="18 15 12 9 6 15"></polyline>
     </svg>
   </button>
-
   <!--Common JS-->
   <script type="text/javascript">
     /***One Page Menu***/

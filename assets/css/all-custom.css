@@ -2005,6 +2005,25 @@ a,
   border: 1px solid #ffffff30;
 }
 
+.whatsappbtn {
+  position: fixed;
+  bottom: 15px;
+  right: 30px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 89;
+  transition: all .5s ease;
+  border: 1px solid rgb(52 52 52 / 15%);
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 100%;
+  border: 1px solid #ffffff30;
+}
+
 .scrollToTopBtn:hover {
   background: var(--secondary-color);
 }

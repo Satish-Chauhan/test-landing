@@ -993,9 +993,7 @@
     }
   
     .theme-logo img {
-      right: unset;
-      left: 30px;
-      height: 90px;
+      height: 60px;
       padding: 15px;
       position: absolute;
     }
@@ -1158,9 +1156,9 @@
     }
   
     .theme-logo img {
-      left: 15px;
-      height: 80px;
+      height: 60px;
       padding: 10px;
+  
     }
   
     .sm-form-control {
