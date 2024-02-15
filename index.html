@@ -162,8 +162,7 @@
   <a href="javascript:void(0)" class="theme-btn sticky-btn-enquire hidden-widescreen d-none"
     onclick="openForm('enquire')">Enquire Now</a>
   <a href="javascript:void(0)" class="theme-btn sticky-btn-enquire sticky-brochure hidden-widescreen"
-    onclick="openForm('brochure')">Download
-    Brochure</a>
+    onclick="openForm('brochure')">Download Brochure</a>
 
   <div id="register-modal" class="theme-modal">
     <div class="theme-elements line-element modal-element">
@@ -664,6 +663,48 @@
               </div>
             </li>
           </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-highlights theme-bg theme-padding">
+    <div class="theme-elements line-element in-and-arround-element">
+      <picture>
+        <source srcset="http://localhost/assets/images/elements/in-and-arround-element.webp" type="image/webp">
+        <source srcset="http://localhost/assets/images/elements/in-and-arround-element.png" type="image/png">
+        <img src="http://localhost/assets/images/elements/in-and-arround-element.png" alt="Elements" width="300"
+          height="600">
+      </picture>
+    </div>
+    <div class="section-highlights-detail price-detail">
+      <div class="section-title mb-6 dark js-scroll fade-in-top">
+        <h2>Price</h2>
+      </div>
+      <div class="price-list-detail js-scroll fade-in-bottom">
+        <div class="grid-container">
+          <div class="grid-item phead">Type</div>
+          <div class="grid-item phead">Carpet Area</div>
+          <div class="grid-item phead">Price</div>
+          <div class="grid-item hidden-price"></div>
+
+          <div class="grid-item">3 BHK</div>
+          <div class="grid-item">1427 sqft</div>
+          <div class="grid-item">₹ 2.65 Cr Onwards</div>
+          <div class="grid-item hidden-price"><button class="theme-btn white-btn" onclick="openForm('')">
+              Price Breakup</button></div>
+
+          <div class="grid-item">4 BHK</div>
+          <div class="grid-item">2178 sqft</div>
+          <div class="grid-item">₹ 4.05 Cr Onwards</div>
+          <div class="grid-item hidden-price"><button class="theme-btn white-btn" onclick="openForm('')">
+              Price Breakup</button></div>
+        </div>
+        <br>
+        <div class="row">
+          <button class="theme-btn fullsize-btn white-btn" onclick="openForm('price')">
+            <h5>Complete Costing Details</h5>
+          </button>
         </div>
       </div>
     </div>
@@ -3690,19 +3731,25 @@
       if (myButtonClasses.contains("is-active")) {
         myButtonClasses.remove("is-active");
         formtype.value = '';
-        if (formtype.value == "brochure") {
-          document.getElementById("leadmodaltitle").innerHTML = "Download Brochure";
-        } else {
-          document.getElementById("leadmodaltitle").innerHTML = "Enquire Now";
-        }
+        changeHeading(formtyp);
       } else {
         myButtonClasses.add("is-active");
         formtype.value = formtyp;
-        if (formtype.value == "brochure") {
-          document.getElementById("leadmodaltitle").innerHTML = "Download Brochure";
-        } else {
-          document.getElementById("leadmodaltitle").innerHTML = "Enquire Now";
-        }
+        changeHeading(formtyp);
+      }
+    }
+
+    function changeHeading(formtype) {
+      if (formtype == "brochure") {
+        document.getElementById("leadmodaltitle").innerHTML = "Download Brochure";
+      } else if (formtype == "enquire") {
+        document.getElementById("leadmodaltitle").innerHTML = "Enquire Now";
+      } else if (formtype == "price") {
+        document.getElementById("leadmodaltitle").innerHTML = "Get Complete Price";
+      } else if (formtype == "floor") {
+        document.getElementById("leadmodaltitle").innerHTML = "Get Floor Plan";
+      } else {
+        document.getElementById("leadmodaltitle").innerHTML = "Price Breakup";
       }
     }
 
