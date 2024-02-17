@@ -4,6 +4,19 @@
     padding-bottom: 150px;
   }
 
+  .row{
+    width: -webkit-fill-available;
+  }
+
+  .floor-plan{
+    margin-top: -40px;
+  }
+
+  .center-text{
+    top: 55%;
+    transform: translate(-50%, -55%);
+  }
+
   .price-list-detail {
     width: 700px;
     max-width: 700px;
@@ -1363,6 +1376,19 @@
 @media screen and (max-width: 480px) {
   .counter-block h3 {
     font-size: 24px;
+  }
+
+  .floor-plan{
+    margin-top: -25px;
+  }
+
+  .price-list-detail h5{
+    font-size: 20px;
+  }
+
+  .center-text{
+    top: 60%;
+    transform: translate(-50%, -60%);
   }
 
   .section-location-detail {
